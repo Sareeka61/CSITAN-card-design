@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-container {
+    width: 250px;
+    height: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card-contents {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.border-desgins {
+    display: flex;
+    justify-content: space-between !important;
+}    
+
+.red-left {
+    padding: 14px;
+    background-color: rgb(179, 60, 60);
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 8px;
+    transform: rotate(90deg);
+}
+
+.blue-right {
+    padding: 14px;
+    background-color: rgb(28,176,239);
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 8px;
+    transform: rotate(-90deg);
+}
+
+#logo {
+    height: 130px;
+    margin-top: -40px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: -30px;
+}
+
+.shape {
+    display: flex;
+    padding: 2px;
+    bottom: 150px;
+}
+
+.semicircle-red {
+    width: 80px;
+    height: 120px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 70px;
+    background: rgb(179, 60, 60);
+    margin-bottom: 4px;
+}
+
+.semicircle-blue {
+    width: 80px;
+    height: 120px;
+    border-top-right-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background: rgb(28,176,239);
+    margin-top: 4px;
+}
+
+.id-image {
+    display: block;
+    max-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top:-175px;
+}
+
+input {
+    border: none;
+}
+
+.Signature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -180px;
+}
+
+.Signature img {
+    position: relative;
+    top: -25px;
+}
+
+.authorized-sign {
+    position: relative;
+    top: -45px;
+    border-top: 1px dotted black;
+    font-size: 10px;
+    text-align: center;
+}
+
+.data {
+    position: relative;
+    top: -208px;
+}
+
+.name-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#name {
+    border: none;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.exec-Member {
+    font-size: 16px;
+    line-height: 10px;
+    color: white;
+    width: 170px;
+    padding: 6px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: rgb(28,176,239);
+    margin-bottom: 8px;
+}
+
+.dynamic-details {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-size: 11px;
+    gap: 1px;
+}
+
+#input-fields {
+    border-bottom: none;
+}
+
+.border-bottom-design {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -196px;
+}
+
+.blue-border {
+    height: 14px;
+    background-color: rgb(28,176,239);
+}
+  
+.red-border {
+    height: 10px;
+    background-color: rgb(179, 60, 60);
+}
